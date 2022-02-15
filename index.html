@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Aframe Test
+        </title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>这里加载各种动作库，见aframe extras-->
+    </head>
+    <body>
+        <a-scene>
+            <a-box position="0 1.45743 -1.09849" color="#ea9f9f" scale="0.2 0.2 0.2"></a-box>
+            <a-sky color="#ECECEC"></a-sky>
+            <a-entity light="color: #AFA; intensity: 1" position="-4 1 8"></a-entity>
+            <a-gltf-model src="assets/model1.glb" position="-0.01908 0.45327 -6.0702" rotation="0 -90 0"></a-gltf-model>
+            <!--<a-gltf-model src="assets/mountain.glb" animation-mixer（这里可以载入glb模型动画） position="-0.01908 0 -6.0702" rotation="0 -90 0" scale="1 2 3"></a-gltf-model>-->
+        </a-scene>
+    </body>
+</html>
